@@ -14,14 +14,15 @@ import routerProvider from "@pankod/refine-react-router-v6";
 
 function App() {
   return (
-    <Refine
-      dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
-      notificationProvider={notificationProvider}
-      Layout={Layout}
-      ReadyPage={ReadyPage}
-      catchAll={<ErrorComponent />}
-      routerProvider={routerProvider}
-    />
+    // <Refine
+    //   dataProvider={dataProvider("https://api.fake-rest.refine.dev")}
+    //   notificationProvider={notificationProvider}
+    //   Layout={Layout}
+    //   ReadyPage={ReadyPage}
+    //   catchAll={<ErrorComponent />}
+    //   routerProvider={routerProvider}
+    // />
+    <p>Hello world!</p>
   );
 }
 
